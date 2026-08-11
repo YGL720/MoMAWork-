@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="'Microsoft YaHei','PingFang SC',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5f7ff"/>
+      <stop offset="100%" stop-color="#eef1fb"/>
+    </linearGradient>
+    <linearGradient id="box1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3e63dd"/>
+      <stop offset="100%" stop-color="#2f4ab8"/>
+    </linearGradient>
+    <linearGradient id="box2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#0d9668"/>
+    </linearGradient>
+    <linearGradient id="box3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="520" rx="16" fill="url(#bg)"/>
+  <text x="450" y="44" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">一次 AI 任务里发生了什么</text>
+
+  <!-- 第1步 你 -->
+  <rect x="40" y="90" width="220" height="110" rx="12" fill="url(#box1)"/>
+  <text x="150" y="125" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff">① 你：把需求讲清楚</text>
+  <text x="150" y="152" text-anchor="middle" font-size="12.5" fill="#dbe3ff">目标 + 输入 + 验收标准</text>
+  <text x="150" y="172" text-anchor="middle" font-size="12.5" fill="#dbe3ff">如：用 data/ 里的数据</text>
+  <text x="150" y="190" text-anchor="middle" font-size="12.5" fill="#dbe3ff">写一份 Q3 复盘报告</text>
+
+  <!-- 第2步 助手 -->
+  <rect x="340" y="90" width="220" height="110" rx="12" fill="url(#box2)"/>
+  <text x="450" y="125" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff">② 助手：理解与规划</text>
+  <text x="450" y="152" text-anchor="middle" font-size="12.5" fill="#d9f5ec">读文件、搜目录、问口径</text>
+  <text x="450" y="172" text-anchor="middle" font-size="12.5" fill="#d9f5ec">必要时进入计划模式</text>
+  <text x="450" y="190" text-anchor="middle" font-size="12.5" fill="#d9f5ec">拆成可检查的步骤</text>
+
+  <!-- 第3步 工具 -->
+  <rect x="640" y="90" width="220" height="110" rx="12" fill="url(#box3)"/>
+  <text x="750" y="125" text-anchor="middle" font-size="17" font-weight="bold" fill="#fff">③ 工具：真正动手做</text>
+  <text x="750" y="152" text-anchor="middle" font-size="12.5" fill="#fdf1d9">读写文件 / 执行命令</text>
+  <text x="750" y="172" text-anchor="middle" font-size="12.5" fill="#fdf1d9">搜索定位 / 调用 Skill</text>
+  <text x="750" y="190" text-anchor="middle" font-size="12.5" fill="#fdf1d9">产出可检查的中间产物</text>
+
+  <line x1="260" y1="145" x2="330" y2="145" stroke="#6b7280" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="560" y1="145" x2="630" y2="145" stroke="#6b7280" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- 第4步 检查循环 -->
+  <rect x="340" y="260" width="220" height="90" rx="12" fill="#ffffff" stroke="#3e63dd" stroke-width="2"/>
+  <text x="450" y="293" text-anchor="middle" font-size="16" font-weight="bold" fill="#3e63dd">④ 你检查 → 我修订</text>
+  <text x="450" y="318" text-anchor="middle" font-size="12.5" fill="#4b5563">每一步都可检查、可回退</text>
+  <text x="450" y="338" text-anchor="middle" font-size="12.5" fill="#4b5563">重要操作先经你确认</text>
+
+  <!-- 循环箭头 -->
+  <path d="M450,355 L450,420 L150,420 L150,210" fill="none" stroke="#3e63dd" stroke-width="2" stroke-dasharray="7,5" marker-end="url(#arrow)"/>
+  <text x="300" y="415" text-anchor="middle" font-size="12" fill="#3e63dd">不满意 → 带着反馈回到 ①</text>
+
+  <!-- 第5步 交付 -->
+  <rect x="620" y="260" width="240" height="90" rx="12" fill="#10b981"/>
+  <text x="740" y="293" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">⑤ 交付与沉淀</text>
+  <text x="740" y="318" text-anchor="middle" font-size="12.5" fill="#d9f5ec">交付物：文档 / 代码 / 数据</text>
+  <text x="740" y="338" text-anchor="middle" font-size="12.5" fill="#d9f5ec">沉淀：Skill / 记忆 / 模板</text>
+
+  <path d="M560,305 L610,305" stroke="#6b7280" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="440" width="820" height="56" rx="10" fill="#eef2ff"/>
+  <text x="450" y="465" text-anchor="middle" font-size="13" fill="#3730a3" font-weight="bold">关键：AI 任务的本质不是「一句咒语」，而是一轮可检查的「协作循环」</text>
+  <text x="450" y="486" text-anchor="middle" font-size="12" fill="#4b5563">你的表达越接近任务（有目标、有输入、有验收标准），输出就越接近交付物</text>
+</svg>

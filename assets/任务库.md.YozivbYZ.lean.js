@@ -1,1 +1,0 @@
-import{_ as a,o as n,c as t,a2 as p}from"./chunks/framework.C4u7U0Dw.js";const d=JSON.parse('{"title":"六场景任务库：拿来就用的任务模板","description":"","frontmatter":{},"headers":[],"relativePath":"任务库.md","filePath":"任务库.md"}'),l={name:"任务库.md"};function e(i,s,o,r,c,u){return n(),t("div",null,[...s[0]||(s[0]=[p("",32)])])}const h=a(l,[["render",e]]);export{d as __pageData,h as default};

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# 主站（Cloudflare Pages）
+Sitemap: https://momawork-whitepaper.pages.dev/sitemap.xml
